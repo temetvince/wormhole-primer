@@ -42,8 +42,8 @@ challenging environment.
    - You can also access the online version of the guide by running:
 
    ```bash
-   npm install
-   npm start
+   $ npm install
+   $ npm start
    ```
 
 2. **Compiling the LaTeX Document:**
