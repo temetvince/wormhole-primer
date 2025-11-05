@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
     <footer className='footer'>
       <p>
         <a
-          href='https://github.com/temetvince/eve-wormhole-primer/blob/main/WormholePrimer.pdf'
+          href='https://github.com/temetvince/wormhole-primer/blob/main/WormholePrimer.pdf'
           target='_blank'
           rel='noopener noreferrer'
           aria-label='Download the Wormhole Primer PDF'
