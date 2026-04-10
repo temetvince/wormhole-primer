@@ -640,22 +640,30 @@ export const getPages = (
         </ul>
         <h3>Huffing</h3>
         <ul>
-          <li>Eifyr and Co. 'Alchemist' Gas Harvesting GH-801</li>
+          <li>Eifyr and Co. 'Alchemist' Gas Harvesting</li>
+        </ul>
+        <h3>Ratting</h3>
+        <ul>
+          <li>Crystal Alpha</li>
+          <li>Crystal Beta</li>
+          <li>Crystal Delta</li>
+          <li>Crystal Epsilon</li>
+          <li>Crystal Gamma</li>
+          <li>Crystal Omega</li>
         </ul>
         <h3>Training</h3>
         <h4>Recommended</h4>
         <ul>
-          <li>Ocular Filter - Improved Perception</li>
-          <li>Memory Augmentation - Improved Memory</li>
-          <li>Neural Boost - Improved Willpower</li>
-          <li>Cybernetic Subprocessor - Improved Intelligence</li>
-          <li>Social Adaptation Chip - Improved Charisma</li>
+          <li>Ocular Filter - Perception</li>
+          <li>Memory Augmentation - Memory</li>
+          <li>Neural Boost - Willpower</li>
+          <li>Cybernetic Subprocessor - Intelligence</li>
+          <li>Social Adaptation Chip - Charisma</li>
         </ul>
         <h4>Optional</h4>
         <ul>
           <li>
-            Eifyr and Co. 'Alchemist' Biology BY-810 - 10% longer booster
-            duration
+            Eifyr and Co. 'Alchemist' Biology - Longer booster duration
             <ul>
               <li>
                 <strong>NOTE:</strong> Biology V Skill: Increases the duration

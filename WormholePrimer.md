@@ -5,38 +5,15 @@
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-  - [Preparation Before Joining](#preparation-before-joining)
-  - [What to Bring](#what-to-bring)
-  - [When Logging In](#when-logging-in)
 - [Main Game Loop](#main-game-loop)
 - [Earning ISK in Wormhole Space](#earning-isk-in-wormhole-space)
-  - [Consistent ISK](#consistent-isk)
-    - [Huffing](#huffing)
-    - [Ratting](#ratting)
-  - [Inconsistent ISK](#inconsistent-isk)
-    - [Relic/Data Sites](#relicdata-sites)
 - [Bookmarking](#bookmarking)
 - [Wormhole Info](#wormhole-info)
-  - [General notes](#general-notes)
-  - [Security Levels](#security-levels)
-  - [Wormhole Lifespan](#wormhole-lifespan)
-  - [Mass Remaining](#mass-remaining)
-  - [Ship Passage](#ship-passage)
-  - [Viewing Tip for Visual Identification](#viewing-tip-for-visual-identification)
 - [Survival Tips](#survival-tips)
 - [Markets (Jump Clones)](#markets-jump-clones)
 - [Roles in the Corp](#roles-in-the-corp)
 - [Warfare Notes](#warfare-notes)
-  - [EWAR](#ewar)
-  - [Tanking](#tanking)
-  - [Resistance Holes (1st / 2nd)](#resistance-holes-1st--2nd)
-  - [Missiles for Kinetic bonus ships](#missiles-for-kinetic-bonus-ships)
 - [Implants](#implants)
-  - [Exploration](#exploration)
-  - [Huffing](#huffing)
-  - [Training](#training)
-    - [Recommended](#recommended)
-    - [Optional](#optional)
 - [From HS to NS and Back through Pochven](#from-hs-to-ns-and-back-through-pochven)
 
 ## Getting Started
@@ -306,31 +283,41 @@ The best missile types to use on kinetic-bonus ships for different scenarios.
 
 ## Implants
 
-The most useful implants for exploration, huffing, and general training.
+The most useful implants for exploration, huffing, ratting, and general
+training.
 
 ### Exploration
 
 - Poteque 'Prospector' Astrometric Rangefinding
 - Poteque 'Prospector' Astrometric Pinpointing
-- Poteque 'Prospector' Astrometric Acquisition Huffing
+- Poteque 'Prospector' Astrometric Acquisition
 
 ### Huffing
 
-- Eifyr and Co. 'Alchemist' Gas Harvesting GH-801
+- Eifyr and Co. 'Alchemist' Gas Harvesting
+
+### Ratting
+
+- Crystal Alpha
+- Crystal Beta
+- Crystal Delta
+- Crystal Epsilon
+- Crystal Gamma
+- Crystal Omega
 
 ### Training
 
 #### Recommended
 
-- Ocular Filter - Improved Perception
-- Memory Augmentation - Improved Memory
-- Neural Boost - Improved Willpower
-- Cybernetic Subprocessor - Improved Intelligence
-- Social Adaptation Chip - Improved Charisma
+- Ocular Filter - Perception
+- Memory Augmentation - Memory
+- Neural Boost - Willpower
+- Cybernetic Subprocessor - Intelligence
+- Social Adaptation Chip - Charisma
 
 #### Optional
 
-- Eifyr and Co. 'Alchemist' Biology BY-810 - 10% longer booster duration
+- Eifyr and Co. 'Alchemist' Biology - Longer booster duration
   - **NOTE:** Biology V Skill: Increases the duration of combat boosters and
     cerebral accelerators
 
