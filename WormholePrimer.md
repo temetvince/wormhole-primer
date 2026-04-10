@@ -28,13 +28,13 @@
   - [EWAR](#ewar)
   - [Tanking](#tanking)
   - [Resistance Holes (1st / 2nd)](#resistance-holes-1st--2nd)
+  - [Missiles for Kinetic bonus ships](#missiles-for-kinetic-bonus-ships)
 - [Implants](#implants)
   - [Exploration](#exploration)
   - [Huffing](#huffing)
   - [Training](#training)
     - [Recommended](#recommended)
     - [Optional](#optional)
-- [Missiles for Kinetic bonus ships](#missiles-for-kinetic-bonus-ships)
 - [From HS to NS and Back through Pochven](#from-hs-to-ns-and-back-through-pochven)
 
 ## Getting Started
