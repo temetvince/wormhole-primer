@@ -1,8 +1,12 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const path = require('path');
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import { resolve as _resolve, join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
-module.exports = (env, argv) => {
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+export default (env, argv) => {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
   const isProd = argv.mode === 'production';
 
   return {
@@ -12,9 +16,9 @@ module.exports = (env, argv) => {
     devtool: isProd ? 'source-map' : 'inline-source-map',
 
     output: {
-      path: path.resolve(__dirname, 'dist'),
+      path: _resolve(__dirname, 'dist'),
       filename: 'js/[name].[contenthash:8].js',   // hashed name + folder
-      publicPath: isProd ? '/wormhole-primer/' : '/',    // <-- KEY FIX: Conditional publicPath
+      publicPath: isProd ? '/' : '/',
       clean: true,                               // wipe old files on rebuild
     },
 
@@ -22,7 +26,7 @@ module.exports = (env, argv) => {
 
     devServer: {
       port: '3000',
-      static: { directory: path.join(__dirname, 'public') },
+      static: { directory: join(__dirname, 'public') },
       open: true,
       hot: true,
       liveReload: true,
@@ -56,7 +60,7 @@ module.exports = (env, argv) => {
 
     plugins: [
       new HtmlWebpackPlugin({
-        template: path.join(__dirname, 'public', 'index.html'),
+        template: join(__dirname, 'public', 'index.html'),
         filename: 'index.html',
         inject: true,
         // Pass BASE_HREF for <base> tag

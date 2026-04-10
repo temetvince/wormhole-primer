@@ -18,8 +18,13 @@
     "noEmit": true,
     "newLine": "LF",
     "typeRoots": ["./node_modules/@types", "./src/**/@types"],
-    "sourceMap": true,
+    "sourceMap": true
   },
-  "include": ["src/**/*.ts*", "src/index.js"],
+  "include": [
+    "src/**/*.ts*",
+    "src/index.js",
+    "eslint.config.mjs",
+    "webpack.config.js"
+  ],
   "exclude": ["node_modules", "src/**/*.spec.*ts*", "public"]
 }
