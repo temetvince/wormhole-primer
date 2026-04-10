@@ -1,11 +1,48 @@
 # Eve Wormhole Primer
 
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Preparation Before Joining](#preparation-before-joining)
+  - [What to Bring](#what-to-bring)
+  - [When Logging In](#when-logging-in)
+- [Main Game Loop](#main-game-loop)
+- [Earning ISK in Wormhole Space](#earning-isk-in-wormhole-space)
+  - [Consistent ISK](#consistent-isk)
+    - [Huffing](#huffing)
+    - [Ratting](#ratting)
+  - [Inconsistent ISK](#inconsistent-isk)
+    - [Relic/Data Sites](#relicdata-sites)
+- [Bookmarking](#bookmarking)
+- [Wormhole Info](#wormhole-info)
+  - [General notes](#general-notes)
+  - [Security Levels](#security-levels)
+  - [Wormhole Lifespan](#wormhole-lifespan)
+  - [Mass Remaining](#mass-remaining)
+  - [Ship Passage](#ship-passage)
+  - [Viewing Tip for Visual Identification](#viewing-tip-for-visual-identification)
+- [Survival Tips](#survival-tips)
+- [Markets (Jump Clones)](#markets-jump-clones)
+- [Roles in the Corp](#roles-in-the-corp)
+- [Warfare Notes](#warfare-notes)
+  - [EWAR](#ewar)
+  - [Tanking](#tanking)
+  - [Resistance Holes (1st / 2nd)](#resistance-holes-1st--2nd)
+- [Implants](#implants)
+  - [Exploration](#exploration)
+  - [Huffing](#huffing)
+  - [Training](#training)
+    - [Recommended](#recommended)
+    - [Optional](#optional)
+- [Missiles for Kinetic bonus ships](#missiles-for-kinetic-bonus-ships)
+- [From HS to NS and Back through Pochven](#from-hs-to-ns-and-back-through-pochven)
+
 ## Getting Started
 
 The essential preparations and login habits to get set up safely in wormhole
 space before and after joining a corporation.
 
-## Preparation Before Joining
+### Preparation Before Joining
 
 - Before Arrival: Go to a major market hub (preferably Jita or Amarr) and make
   that your home station. You can't respawn inside wormhole space.
@@ -13,7 +50,7 @@ space before and after joining a corporation.
 - After You Arrive: Install Jump Clones in major market hubs to maximize
   returnability home if podded.
 
-## What to Bring
+### What to Bring
 
 - MINIMUM: A ship fit for scanning and exploration (e.g., Covert Ops Frigate,
   Astero, Stratios, or T3 Strategic Cruiser).
@@ -24,7 +61,7 @@ space before and after joining a corporation.
   Runner).
 - DIPLOMACY: A ship fit for PvP (ask for corporation doctrine).
 
-## When Logging In
+### When Logging In
 
 - Always join the corporate fleet when logged in. If the fleet does not exist,
   then create it.
@@ -218,7 +255,9 @@ The main roles players fill in a wormhole corporation.
 - EWar: Disrupts enemy ships by jamming targeting systems, reducing sensor
   strength, and more.
 
-## EWAR
+## Warfare Notes
+
+### EWAR
 
 Quickly identify and apply the correct electronic warfare module based on ship
 type.
@@ -231,7 +270,7 @@ matching colored module:
 - Gallente: Magnetometric (Turquoise background)
 - Minmatar: Ladar (Red background)
 
-## Tanking
+### Tanking
 
 The preferred tank type for each faction.
 
@@ -240,7 +279,7 @@ The preferred tank type for each faction.
 - Gallente -> Structure
 - Minmatar -> Speed
 
-## Resistance Holes (1st / 2nd)
+### Resistance Holes (1st / 2nd)
 
 The primary and secondary resistance holes for different tank types and
 factions.
