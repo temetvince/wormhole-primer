@@ -489,7 +489,7 @@ export const getPages = (
           The main market hubs where you should set up jump clones for easy
           reshipping and return trips.
         </p>
-        <ol>
+        <ul>
           <li>
             <strong>Jita IV - Moon 4 - Caldari Navy Assembly Plant:</strong>{' '}
             Most popular market hub, located in Caldari space.
@@ -512,7 +512,7 @@ export const getPages = (
             <strong>Hek VIII - Moon 12 - Boundless Creation Factory:</strong>{' '}
             Minmatar hub.
           </li>
-        </ol>
+        </ul>
       </>
     ),
   },

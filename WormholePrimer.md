@@ -211,14 +211,14 @@ wormholes.
 The main market hubs where you should set up jump clones for easy reshipping and
 return trips.
 
-1. Jita IV - Moon 4 - Caldari Navy Assembly Plant: Most popular market hub,
-   located in Caldari space.
-2. Amarr VIII (Oris) - Emperor Family Academy: Fairly popular, located in Amarr
-   space.
-3. Dodixie IX - Moon 20 - Federation Navy Assembly Plant: Largest Gallente
-   market hub.
-4. Rens VI - Moon 8 - Brutor Tribe Treasury: Minmatar hub.
-5. Hek VIII - Moon 12 - Boundless Creation Factory: Minmatar hub.
+- Jita IV - Moon 4 - Caldari Navy Assembly Plant: Most popular market hub,
+  located in Caldari space.
+- Amarr VIII (Oris) - Emperor Family Academy: Fairly popular, located in Amarr
+  space.
+- Dodixie IX - Moon 20 - Federation Navy Assembly Plant: Largest Gallente market
+  hub.
+- Rens VI - Moon 8 - Brutor Tribe Treasury: Minmatar hub.
+- Hek VIII - Moon 12 - Boundless Creation Factory: Minmatar hub.
 
 ## Roles in the Corp
 
