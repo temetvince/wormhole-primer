@@ -31,6 +31,7 @@
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "babel-loader": "10.x",
+    "copy-webpack-plugin": "^14.0.0",
     "css-loader": "7.x",
     "eslint": "9.38.x",
     "html-webpack-plugin": "5.x",

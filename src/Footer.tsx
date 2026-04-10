@@ -5,7 +5,7 @@ import './Footer.css';
 /**
  * Footer component for the application.
  *
- * This component renders a footer containing a link to download a PDF version of the Wormhole Primer.
+ * This component renders a footer with a link to the home page.
  * The footer is styled using the external Footer.css file.
  */
 const Footer: React.FC = () => {
@@ -13,12 +13,12 @@ const Footer: React.FC = () => {
     <footer className='footer'>
       <p>
         <a
-          href='https://github.com/temetvince/wormhole-primer/blob/main/WormholePrimer.md'
+          href='https://astralaide.com'
           target='_blank'
           rel='noopener noreferrer'
-          aria-label='Download the Wormhole Primer PDF'
+          aria-label='Return Home'
         >
-          Download the Markdown!
+          Return Home
         </a>
       </p>
     </footer>
