@@ -61,7 +61,7 @@ module.exports = (env, argv) => {
         inject: true,
         // Pass BASE_HREF for <base> tag
         templateParameters: {
-          BASE_HREF: isProd ? '/wormhole-primer/' : '/',  // <-- KEY FIX: Conditional BASE_HREF
+          BASE_HREF: isProd ? '/' : '/',
         },
       }),
     ],
