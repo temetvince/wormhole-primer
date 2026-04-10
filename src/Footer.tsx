@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           rel='noopener noreferrer'
           aria-label='Return Home'
         >
-          Return to HTT
+          Return to Holier Than Thou.
         </a>
       </p>
     </footer>
