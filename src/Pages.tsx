@@ -29,7 +29,7 @@ export const getPages = (
                 setCurrentPage(2);
               }}
             >
-              Introduction
+              Getting Started
             </button>
           </li>
           <li>
@@ -38,7 +38,7 @@ export const getPages = (
                 setCurrentPage(3);
               }}
             >
-              Getting Started
+              Main Game Loop
             </button>
           </li>
           <li>
@@ -47,7 +47,7 @@ export const getPages = (
                 setCurrentPage(4);
               }}
             >
-              Daily Operational Routine
+              Earning ISK in Wormhole Space
             </button>
           </li>
           <li>
@@ -56,7 +56,7 @@ export const getPages = (
                 setCurrentPage(5);
               }}
             >
-              Earning ISK in Wormhole Space
+              Bookmarking
             </button>
           </li>
           <li>
@@ -65,7 +65,7 @@ export const getPages = (
                 setCurrentPage(6);
               }}
             >
-              Bookmarking Best Practices
+              Wormhole Info
             </button>
           </li>
           <li>
@@ -74,7 +74,7 @@ export const getPages = (
                 setCurrentPage(7);
               }}
             >
-              Understanding Wormholes
+              Survival Tips
             </button>
           </li>
           <li>
@@ -83,7 +83,7 @@ export const getPages = (
                 setCurrentPage(8);
               }}
             >
-              Survival Strategies
+              Markets (Jump Clones)
             </button>
           </li>
           <li>
@@ -92,7 +92,7 @@ export const getPages = (
                 setCurrentPage(9);
               }}
             >
-              Market Hubs and Jump Clones
+              Roles in the Corp
             </button>
           </li>
           <li>
@@ -101,7 +101,7 @@ export const getPages = (
                 setCurrentPage(10);
               }}
             >
-              Skill Training and Implants
+              Warfare Notes
             </button>
           </li>
           <li>
@@ -110,7 +110,7 @@ export const getPages = (
                 setCurrentPage(11);
               }}
             >
-              Corporate Roles
+              Implants
             </button>
           </li>
           <li>
@@ -119,51 +119,10 @@ export const getPages = (
                 setCurrentPage(12);
               }}
             >
-              Electronic Warfare (EWAR)
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setCurrentPage(13);
-              }}
-            >
-              Defense and Tanking
-            </button>
-          </li>
-          <li>
-            <button
-              onClick={() => {
-                setCurrentPage(14);
-              }}
-            >
-              Conclusion
+              From HS to NS and Back through Pochven
             </button>
           </li>
         </ol>
-      </>
-    ),
-  },
-  {
-    id: 'introduction',
-    title: 'Introduction',
-    content: (
-      <>
-        <h2 id='introduction'>Introduction</h2>
-        <p>
-          Navigating the vast and enigmatic expanse of wormhole space in EVE
-          Online offers both significant challenges and rewards. This guide
-          serves as a comprehensive resource for members embarking on wormhole
-          operations, providing the essential knowledge to master this complex
-          environment. Whether you're new to New Eden or an experienced pilot,
-          this primer covers everything from fundamental preparation and daily
-          routines to advanced strategies for survival, ISK generation, and
-          corporate participation in wormhole space. After thoroughly reviewing
-          this document, it is recommended that you seek mentorship from a
-          seasoned corporation veteran to learn the art of wormhole rolling—a
-          skill that, with practice, will distinguish you as a true follower of
-          Bob.
-        </p>
       </>
     ),
   },
@@ -173,95 +132,87 @@ export const getPages = (
     content: (
       <>
         <h2 id='getting-started'>Getting Started</h2>
-        <h3>Preparations Before Departure</h3>
         <p>
-          Before venturing into wormhole space, it is crucial to undertake a few
-          key preparatory actions to ensure your safety and efficiency.
+          The essential preparations and login habits to get set up safely in
+          wormhole space before and after joining a corporation.
         </p>
-        <p>
-          Ensure your ship prominently displays the corporate symbol, signifying
-          your membership and loyalty to the corporation. If you don't have the
-          symbol yet, you can request it from any corporation member. It's
-          usually best to place this symbol at the beginning of your ship's
-          name, so consider saving it in the in-game Notebook for easy access.
-        </p>
-        <p>
-          Another vital step is to set your home station in a major market hub,
-          such as Jita or Amarr, before entering wormhole space. Since
-          respawning within wormhole space is impossible, having your home
-          station in a well-connected hub provides a secure and convenient base
-          of operations, ensuring you can quickly and safely return if needed.
-        </p>
-        <h3>Actions Upon Arrival</h3>
-        <p>
-          Once you’ve arrived in wormhole space, it is highly advisable to
-          utilize a Jump Clone in the home hole to safeguard your primary
-          implanted clone. Additionally, one of your first priorities should be
-          to install Jump Clones in major market hubs. This setup allows you to
-          swiftly return to your base if you are podded, minimizing downtime and
-          enabling you to rejoin wormhole operations without delay.
-        </p>
+        <h3>Preparation Before Joining</h3>
+        <ul>
+          <li>
+            Before Arrival: Go to a major market hub (preferably Jita or Amarr)
+            and make that your home station. You can't respawn inside wormhole
+            space.
+          </li>
+          <li>When You Arrive: Use Jump Clones to backup your good clone.</li>
+          <li>
+            After You Arrive: Install Jump Clones in major market hubs to
+            maximize returnability home if podded.
+          </li>
+        </ul>
+        <h3>What to Bring</h3>
+        <ul>
+          <li>
+            <strong>MINIMUM:</strong> A ship fit for scanning and exploration
+            (e.g., Covert Ops Frigate, Astero, Stratios, or T3 Strategic
+            Cruiser).
+          </li>
+          <li>
+            <strong>RECOMMENDED:</strong> A ship fit for huffing (e.g., Venture
+            or Prospect).
+          </li>
+          <li>
+            <strong>OPTIONAL:</strong> A ship fit for ratting (e.g., T3
+            Strategic Cruiser, Praxis, Heavy Assault Cruiser, or Marauder. Don't
+            forget Salvagers).
+          </li>
+          <li>
+            <strong>SITUATIONAL:</strong> A ship fit for hauling and industry
+            (e.g., DST or a Blockade Runner).
+          </li>
+          <li>
+            <strong>DIPLOMACY:</strong> A ship fit for PvP (ask for corporation
+            doctrine).
+          </li>
+        </ul>
+        <h3>When Logging In</h3>
+        <ul>
+          <li>
+            Always join the corporate fleet when logged in. If the fleet does
+            not exist, then create it.
+          </li>
+        </ul>
       </>
     ),
   },
   {
-    id: 'daily-operational-routine',
-    title: 'Daily Operational Routine',
+    id: 'main-game-loop',
+    title: 'Main Game Loop',
     content: (
       <>
-        <h2 id='daily-operational-routine'>Daily Operational Routine</h2>
-        <h3>Logging In Procedures</h3>
+        <h2 id='main-game-loop'>Main Game Loop</h2>
         <p>
-          Upon logging in, it’s crucial to integrate smoothly with ongoing
-          corporate operations. Start by immediately joining the corporate
-          fleet, which is vital for coordinating activities in wormhole space.
-          If the fleet doesn’t exist, take the initiative to create it. Next,
-          log in to Pathfinder, a critical tool that provides valuable insights
-          and data on wormhole space to support operations. Finally, consider
-          joining or starting a voice channel in the corporation’s Discord. Even
-          if it’s initially empty, your presence can often encourage others to
-          join.
+          The standard daily activities that keep your wormhole operations
+          running smoothly.
         </p>
-        <h3>Securing the Home System</h3>
-        <p>
-          Your daily routine in wormhole space begins with a few essential tasks
-          that are crucial for your safety and the corporation’s success. Start
-          by scanning for new signatures (sigs) in your home system. These
-          signatures are key to wormhole exploration, and staying updated on any
-          new developments is vital. If no new signatures are found in your home
-          system, move on to the static wormholes and perform the same scan.
-        </p>
-        <p>
-          To streamline this process, use Pathfinder’s Signature Reader
-          copy-and-paste feature. When consistently used across the corporation,
-          this tool simplifies the tracking and management of PvE opportunities
-          and enables quick and efficient signature checks, enhancing overall
-          situational awareness.
-        </p>
-        <h3>Expanding Territory</h3>
-        <p>
-          Once your initial scans are complete, proceed with exploration. Choose
-          an unscanned wormhole, ideally one that is a "leaf" in the network,
-          suggesting it’s likely unexplored and could expand the corporation’s
-          cartographic knowledge. Scan this wormhole to uncover hidden
-          opportunities and potential threats.
-        </p>
-        <h3>Maximizing Profit</h3>
-        <p>
-          After exploration, consider engaging in PvE activities based on your
-          scans. These might include gas harvesting, relic and data site
-          exploration, or combat site engagement. Ensure you have the necessary
-          skills and equipment before tackling each site. Avoid particularly
-          challenging sites such as Ordinary, Bountiful, Vast, Vital, and
-          Instrumental sites unless you are fully prepared.
-        </p>
-        <p className='tip'>
-          <strong>TIP:</strong> Respect your fellow corpmates by avoiding the
-          practice of following another explorer and taking the sites they’ve
-          uncovered, as this is considered poor etiquette. If you’re interested
-          in a site, politely ask the prospector if they’d be willing to split
-          the rewards for your assistance.
-        </p>
+        <ol>
+          <li>
+            Check if home has any new signatures (sigs). If not, move onto the
+            statics and do the same thing there.
+          </li>
+          <li>
+            If everything's clear, pick an unscanned wormhole (a leaf in the
+            tree, usually) and start scanning that.
+          </li>
+          <li>
+            After you're tired of scanning, you can do the PVE sites you've
+            scanned already: gas, relic, and data sites, and some combats if
+            you've got the skills for it.
+          </li>
+          <li>
+            Don't forget about your Industry and Planetary Industry jobs/tasks,
+            etc.
+          </li>
+        </ol>
       </>
     ),
   },
@@ -272,611 +223,477 @@ export const getPages = (
       <>
         <h2 id='earning-isk'>Earning ISK in Wormhole Space</h2>
         <p>
-          Earning ISK in wormhole space can be highly lucrative if you know
-          where to focus your efforts. There are both consistent and
-          inconsistent income sources, each offering varying levels of risk and
-          reward.
+          The most reliable and situational ways to make money while living in
+          wormhole space.
         </p>
-        <h3>Consistent Income Sources</h3>
-        <h4>Gas Huffing</h4>
-        <p>
-          Gas huffing involves extracting valuable gases from wormhole clouds
-          and presents a balanced risk-to-reward ratio. To optimize your
-          earnings, it's best to use T2 or Faction Prospect ships, or a Covetor
-          equipped with mining boosts, particularly when operating in rich gas
-          clouds. With the right setup, you can expect to earn approximately
-          100-150 million ISK per hour.
-        </p>
-        <p>
-          Be aware that NPC rats typically spawn 15-20 minutes after the initial
-          warp to a gas site. Despite this, gas huffing remains a relatively
-          safe and consistent method of generating income in wormhole space.
-          After harvesting, the gas can be compressed for easier
-          transportation—note that only the decompression process requires
-          specific skills. Alternatively, the gas can be used in Reactions to
-          create more profitable products, further increasing your ISK gains.
-        </p>
+        <ul>
+          <li>Not discussed but recommended: Planetary Industry.</li>
+        </ul>
+        <h3>Consistent ISK</h3>
+        <ul>
+          <li>Risk (decreasing): Ratting &gt; Huffing &gt; Mining</li>
+          <li>Reward (decreasing): Ratting &gt; Huffing &gt; Mining</li>
+        </ul>
+        <h4>Huffing</h4>
+        <ul>
+          <li>
+            Optimal Setup: T2 + Faction Prospect or Covetor + boosts in a good
+            cloud can yield 100-150m ISK/hr.
+          </li>
+          <li>
+            If using a &gt;2600m/s agile Venture or Prospect, try orbiting cloud
+            at 500m with MWD on to kite the rats.
+            <ul>
+              <li>
+                Huff smaller radius clouds before the rats appear, then
+                transition to the larger radius cloud.
+              </li>
+              <li>
+                Vital rats are deadly to this strategy. Avoid unless prepared.
+              </li>
+            </ul>
+          </li>
+        </ul>
         <h4>Ratting</h4>
-        <p>
-          Ratting, or engaging in combat with NPC pirates, is another consistent
-          income source but comes with higher risks and potentially higher
-          rewards.
-        </p>
         <ul>
           <li>
-            <strong>C1-C2 Wormholes:</strong> These offer less profitability. If
-            you have the option, focus on signature sites rather than anomalies,
-            as the rewards for anomalies do not scale well with the lower
-            wormhole classes.
+            C1-2: Inferior and not worth your time if you can do exploration or
+            huffing.
           </li>
           <li>
-            <strong>C3 Wormholes:</strong> These are particularly lucrative for
-            ratting, with potential earnings of 200-250 million ISK per hour
-            when using a Heavy Assault Cruiser. This income can nearly double if
-            you pilot a Marauder, though this is generally not advised due to
-            the increased risk.
+            C3: Up to 200-250m ISK/hr in a Heavy Assault Cruiser; can almost
+            double if blitzing in a Marauder (advised against).
           </li>
+          <li>C4: Good money</li>
           <li>
-            <strong>C4 Wormholes:</strong> Generally not recommended for ratting
-            due to poor ISK-to-EHP ratios and difficult rat spawn ranges, making
-            them less efficient and more challenging for sustained operations.
-          </li>
-          <li>
-            <strong>C5 Wormholes:</strong> These are exceptionally profitable
-            for those capable of soloing in Marauders or running a small fleet
-            of three Leshaks or Nestors.
+            C5: Great money if soloing in marauders or running 3
+            Leshaks/Nestors.
           </li>
         </ul>
-        <h3>Inconsistent Income Sources</h3>
+        <h3>Inconsistent ISK</h3>
+        <ul>
+          <li>Risk (decreasing): Relic &gt; Data</li>
+          <li>Reward (decreasing): Relic &gt; Data</li>
+        </ul>
+        <h4>Relic/Data Sites</h4>
         <p>
-          Inconsistent income sources in wormhole space offer potentially high
-          rewards but come with varying degrees of risk. The primary activities
-          in this category are relic and data site exploration.
+          Key strategies and rules for successfully hacking relic and data sites
+          in wormholes.
         </p>
+        <h5>Core Node Placement</h5>
+        <ul>
+          <li>The Core node will always be near at least one hostile node.</li>
+          <li>
+            Hostile nodes will never spawn in a spot connected to all six
+            surrounding spots unless the Core node is one of its neighbors.
+          </li>
+          <li>
+            The Core node will be six or more spots away from your spawn unless
+            you spawn in a position where every spot is closer than six (even if
+            unconnected). In such cases, the Core node can spawn at any random
+            spot, even next to your spawn.
+          </li>
+        </ul>
+        <h5>General Advice</h5>
         <ul>
           <li>
-            <strong>Relic Sites:</strong> These sites generally offer higher
-            rewards but are risky to explore due to the potential for hostile
-            encounters.
+            Use the wrench item before your virus takes damage to increase
+            health above the starting value.
           </li>
           <li>
-            <strong>Data Sites:</strong> These offer lower rewards compared to
-            relic sites but offer a variety of loot useful for industry.
+            Save the Shields and Kernel Rot (damage item) for critical
+            situations. It's often better to try another path if you encounter a
+            hostile node than to brute force through it.
+          </li>
+          <li>
+            Use the "Secondary Vectors" item to kill the hostile node that
+            reduces your attack power within three turns, during which you can
+            explore other nodes.
           </li>
         </ul>
-        <h4>Core Node Placement Principles</h4>
-        <p>
-          Understanding the placement of core nodes is key to successful site
-          hacking. The core node, which you must reach to unlock the site, is
-          always adjacent to at least one hostile node. Hostile nodes, which can
-          damage your virus, never appear in positions surrounded by six other
-          spots unless they are adjacent to the core. Typically, the core is
-          located six or more spots away from your starting point, unless
-          spatial constraints make this impossible. Being aware of these
-          principles can help you anticipate the location of the core and plan
-          your approach accordingly.
-        </p>
-        <h4>Effective Hacking Strategies</h4>
-        <p>
-          To maximize your hacking success, it’s important to use the right
-          strategies:
-        </p>
-        <p>
-          <strong>Wrench Utility:</strong> Utilize the wrench utility before
-          your virus sustains damage to increase its health above the initial
-          value. This can provide you with a significant advantage as you
-          navigate through the nodes.
-        </p>
-        <p>
-          <strong>Shields and Kernel Rot:</strong> Save the Shields and Kernel
-          Rot items for critical moments. These powerful tools can make a
-          crucial difference in challenging situations, giving you the upper
-          hand when you need it most.
-        </p>
-        <p>
-          <strong>Path Selection:</strong> If you encounter a particularly
-          difficult hostile node, consider exploring alternative paths instead
-          of forcing your way through. Sometimes, taking a different route can
-          lead to a more favorable outcome.
-        </p>
-        <p>
-          <strong>Secondary Vectors Utility:</strong> Deploy the "Secondary
-          Vectors" utility to neutralize hostile nodes that reduce your attack
-          power for three turns. This allows you to safely explore other nodes
-          during this time, giving you more opportunities to find the core.
-        </p>
-        <h4>General Hacking Tips</h4>
-        <p>
-          <strong>Plan Ahead:</strong> Before initiating a hack, take a few
-          moments to assess the grid. Carefully survey the layout and identify
-          potential paths, planning your approach to minimize risks and maximize
-          efficiency.
-        </p>
-        <p>
-          <strong>Strategic Resource Management:</strong> Your utilities are
-          powerful tools, but they are limited. Use them strategically,
-          reserving their use for critical moments when they can provide the
-          most benefit. Effective resource management can often be the
-          difference between success and failure.
-        </p>
-        <p>
-          <strong>Adaptability and Flexibility:</strong> No two hacks are the
-          same, and challenges can arise unexpectedly. Stay adaptable and be
-          ready to change your strategy on the fly. Whether it's choosing an
-          alternate path or deploying a utility at the right time, your ability
-          to respond to changing circumstances is key to overcoming difficult
-          hacks.
-        </p>
       </>
     ),
   },
   {
     id: 'bookmarking',
-    title: 'Bookmarking Best Practices',
+    title: 'Bookmarking',
     content: (
       <>
-        <h2 id='bookmarking'>Bookmarking Best Practices</h2>
-        <h3>Naming Conventions</h3>
+        <h2 id='bookmarking'>Bookmarking</h2>
         <p>
-          Establish and follow a consistent naming convention for your bookmarks
-          to maintain clarity and organization. For example, use the format{' '}
-          <code>.C4s SIG [Last 3 Digits of Name] EoL</code>, where{' '}
-          <code>.</code> indicates a route leading homeward, <code>s</code>{' '}
-          denotes a static wormhole, and <code>EoL</code> signals that the
-          wormhole is nearing the end of its life. Consistent naming not only
-          helps you quickly identify bookmarks but also aids in communication
-          with other corporation members.
+          Opinionated practices for creating and managing bookmarks to stay
+          organized and safe in wormhole chains.
         </p>
-        <h3>Organizational Structure</h3>
-        <p>
-          Organize your bookmarks into categories for easier access and
-          management. Save exploration sites under a "Signatures" folder and
-          wormholes under "Wormholes." This structure simplifies the process of
-          locating specific bookmarks and ensures that your navigation data is
-          logically arranged, reducing the chances of confusion during
-          operations.
-        </p>
-        <h3>Regular Maintenance</h3>
-        <p>
-          Bookmarks should be regularly updated and pruned to maintain accuracy
-          and relevance. As a general rule, avoid keeping bookmarks for more
-          than two days unless necessary. You should set this when creating the
-          bookmark for all signatures and wormholes. Regular maintenance of your
-          bookmarks ensures that you always have current and reliable navigation
-          information, minimizing the risk of following outdated paths.
-        </p>
-        <h3>Operational Best Practices</h3>
-        <p>
-          When traversing wormholes, always create a bookmark for the return
-          path immediately. To improve accuracy, save wormhole bookmarks using
-          the Overview or 3D view, as these methods reduce the likelihood of
-          errors. For signatures, bookmarking from the Probe Scanner view is
-          generally sufficient and efficient.
-        </p>
-        <p>
-          Before jumping into an unknown wormhole, right-click its bookmark,
-          select Edit Location, and keep the editing window open during the
-          jump. This allows you to quickly update the bookmark with any new
-          information gained from the jump, ensuring that your navigation data
-          remains precise and up-to-date.
-        </p>
+        <ul>
+          <li>
+            <strong>Naming Conventions:</strong>
+            <ul>
+              <li>
+                ".C4s SIG Last3DigitsOfName &lt;4hrs": . = homeward bound; s =
+                static; &lt;4hrs = End of Life
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>Save Sites:</strong> Save under Signatures and wormholes
+            under Wormholes.
+          </li>
+          <li>
+            <strong>Bookmark Duration:</strong> Only save bookmarks for 2 days
+            maximum.
+          </li>
+          <li>
+            <strong>Wormhole Return:</strong> If you go through a hole, bookmark
+            the return.
+          </li>
+          <li>
+            <strong>Saving Methods:</strong> Only save WH by clicking on them
+            from the Overview or in the 3D view for accuracy. It's okay to save
+            Signatures from the scanner view as the loss of accuracy is minimal.
+          </li>
+          <li>
+            Before jumping through a bookmarked wormhole with an unknown
+            destination, right click the bookmark, and click Edit Location.
+            Leave that window open while you jump.
+          </li>
+        </ul>
       </>
     ),
   },
   {
-    id: 'understanding-wormholes',
-    title: 'Understanding Wormholes',
+    id: 'wormhole-info',
+    title: 'Wormhole Info',
     content: (
       <>
-        <h2 id='understanding-wormholes'>Understanding Wormholes</h2>
-        <h3>Key Terminology</h3>
+        <h2 id='wormhole-info'>Wormhole Info</h2>
         <p>
-          Understanding key wormhole terminology is crucial for safe and
-          effective navigation in wormhole space.
+          Essential wormhole mechanics, types, indicators, and identification
+          tips.
         </p>
-        <p>
-          <strong>K162:</strong> This designation is one of the most important
-          in wormhole navigation. It indicates that a ship has entered the
-          current wormhole from the opposite side, signaling that the wormhole
-          has been activated. Identifying a K162 wormhole is critical for
-          assessing potential threats and gauging the level of activity in the
-          surrounding area.
-        </p>
-        <p>
-          <strong>Statics:</strong> Statics are wormholes that regenerate after
-          collapsing, playing a significant role in wormhole dynamics. These
-          wormholes will remain closed until they are warped to, so
-          understanding their behavior is vital for planning navigation routes.
-          If a static wormhole is only warped to and not traversed, it will stay
-          closed for at least 9 hours, allowing for strategic planning and
-          movement.
-        </p>
-        <p>
-          <strong>Wandering:</strong> In addition to statics, wandering
-          wormholes may also appear. These wormholes follow the same rules as
-          statics when it comes to warping and traversing, adding another layer
-          of complexity to wormhole navigation. Being aware of both static and
-          wandering wormhole behaviors ensures better preparedness and
-          decision-making in unpredictable environments.
-        </p>
-        <h3>Security Classifications</h3>
-        <p>
-          Wormholes are categorized by their security levels, which range from{' '}
-          <strong>Unknown</strong> (C1-C3, C13) to{' '}
-          <strong>Dangerous Unknown</strong> (C4-C5), and{' '}
-          <strong>Deadly Unknown</strong> (C6). Wormholes leading to known space
-          are classified by their destination: <strong>Highsec</strong>,{' '}
-          <strong>Lowsec</strong>, and <strong>Nullsec</strong>, while wormholes
-          leading to Triglavian space are classified as <strong>Pochven</strong>
-          . Familiarity with these classifications is essential for gauging the
-          risks and rewards associated with each wormhole.
-        </p>
-        <p className='tip'>
-          <strong>TIP:</strong> C1 and C3 wormholes don't have j-space statics
-          and C4+ wormholes don't have k-space statics.
-        </p>
-        <h3>Visual Identification Tips</h3>
-        <p>
-          Each wormhole class within the game is associated with a unique visual
-          texture, which can be used for identification. To accurately determine
-          a wormhole’s type, rotate the camera around the wormhole to carefully
-          observe its distinct features. This methodical observation will enable
-          you to quickly and accurately identify the class of wormhole you are
-          dealing with, enhancing your situational awareness and decision-making
-          in wormhole space.
-        </p>
+        <h3>General Notes</h3>
+        <ul>
+          <li>
+            K162 means the hole was rolled into (at least 1 ship has come
+            through).
+          </li>
+          <li>
+            If a static is rolled and no one warps to it, then it will never
+            open.
+          </li>
+          <li>
+            If a static is rolled and no one enters it but does warp to it, then
+            it may open if &lt;15 hours remaining, and it will open if &lt;4
+            hours remaining (24 hour lifetime).
+          </li>
+          <li>
+            C1 and C3 don't have j-space statics and C5+ don't have k-space
+            statics.
+          </li>
+        </ul>
+        <h3>Security Levels</h3>
+        <ul>
+          <li>Unknown: C1/C2/C3</li>
+          <li>Dangerous Unknown: C4/C5</li>
+          <li>Deadly Unknown: C6</li>
+          <li>High Security: Hisec</li>
+          <li>Low Security: Lowsec</li>
+          <li>Null Security: Nullsec</li>
+          <li>Triglavian Space: Pochven</li>
+        </ul>
+        <h3>Wormhole Lifespan</h3>
+        <ul>
+          <li>Less than 1 day remaining (fresh)</li>
+          <li>Less than 4 hours remaining (end of life)</li>
+          <li>Less than 1 hour remaining</li>
+          <li>Expired, closure imminent</li>
+        </ul>
+        <h3>Mass Remaining</h3>
+        <ul>
+          <li>Not Yet: Over 50% (Fresh)</li>
+          <li>Not to a Critical Degree: Between 50% and 10% (Shrink)</li>
+          <li>Stability Critically Disrupted: Less than 10% (Crit)</li>
+        </ul>
+        <h3>Ship Passage</h3>
+        <ul>
+          <li>
+            Very Large Ships: All ships except for Titans and supercarriers can
+            pass through.
+          </li>
+          <li>
+            Larger Ships: Battleships, Orcas, and smaller ships can pass
+            through.
+          </li>
+          <li>
+            Up to Medium Size Ships: Unplated Nestors, battlecruisers, and
+            smaller ships can pass through.
+          </li>
+          <li>
+            Only the Smallest Ships: Only frigates, destroyers, or specially fit
+            HICs can pass through.
+          </li>
+        </ul>
+        <h3>Viewing Tip for Visual Identification</h3>
+        <ul>
+          <li>
+            Rotate the camera around the wormhole; features aren't always
+            visible from all angles.
+          </li>
+        </ul>
       </>
     ),
   },
   {
-    id: 'survival-strategies',
-    title: 'Survival Strategies',
+    id: 'survival-tips',
+    title: 'Survival Tips',
     content: (
       <>
-        <h2 id='survival-strategies'>Survival Strategies</h2>
-        <h3>Operational Safety</h3>
+        <h2 id='survival-tips'>Survival Tips</h2>
         <p>
-          Maintaining operational safety is paramount in wormhole space. Always
-          keep your ship aligned to a celestial object or a designated safe spot
-          when you're not stationary. This practice ensures you can warp out
-          instantly at the first sign of danger. Regularly use the directional
-          scanner (D-Scan) to monitor for enemy ships and probes that might be
-          nearby. Establish multiple safe spots within systems to observe your
-          surroundings and retreat quickly if needed. Equipping cloaking devices
-          on suitable ships further enhances your ability to avoid detection,
-          while varying your travel routes reduces the risk of ambushes.
+          Practical advice to stay alive and avoid common threats while
+          operating in wormholes.
         </p>
-        <h3>Environmental Awareness</h3>
-        <p>
-          Understanding the environment is crucial for making informed
-          decisions. Nullsec wormhole connections generally experience lower
-          traffic, making their holes more suitable for PvE activities. However,
-          exercise caution when engaging in PvE within systems that have
-          multiple K162 connections, as these significantly increase the chances
-          of encountering hostile players. Being aware of these environmental
-          factors allows you to choose safer locations for your operations and
-          reduces the likelihood of unexpected encounters.
-        </p>
+        <ul>
+          <li>
+            <strong>Stay Aligned:</strong> Unless stationary, always keep your
+            ship aligned to a celestial object or safe spot to warp out quickly.
+          </li>
+          <li>
+            <strong>Watch D-Scan:</strong> Continuously use the directional
+            scanner to check for enemy ships and probes.
+          </li>
+          <li>
+            <strong>Use Safe Spots:</strong> Create safe spots in systems to
+            hide and observe before engaging in activities.
+          </li>
+          <li>
+            <strong>Cloak When Possible:</strong> Use cloaking devices on
+            appropriate ships to avoid detection.
+          </li>
+          <li>
+            <strong>Avoid Predictable Routes:</strong> Don't use the same routes
+            repeatedly to reduce the chance of ambush.
+          </li>
+          <li>Null Sec holes rarely receive traffic.</li>
+          <li>Don't PVE in holes with lots of K162 connections.</li>
+        </ul>
       </>
     ),
   },
   {
-    id: 'market-hubs',
-    title: 'Market Hubs and Jump Clones',
+    id: 'markets',
+    title: 'Markets (Jump Clones)',
     content: (
       <>
-        <h2 id='market-hubs'>Market Hubs and Jump Clones</h2>
+        <h2 id='markets'>Markets (Jump Clones)</h2>
         <p>
-          Strategically placing your Jump Clones in major market hubs ensures
-          that you can quickly return to key locations in known space. The most
-          important market hubs in EVE Online are as follows:
+          The main market hubs where you should set up jump clones for easy
+          reshipping and return trips.
         </p>
         <ol>
           <li>
             <strong>Jita IV - Moon 4 - Caldari Navy Assembly Plant:</strong>{' '}
-            This is the premier trade hub in Caldari space and the most popular
-            market in the game.
+            Most popular market hub, located in Caldari space.
           </li>
           <li>
-            <strong>Amarr VIII (Oris) - Emperor Family Academy:</strong> This is
-            a major hub in Amarr space and serves as a secondary trading center.
+            <strong>Amarr VIII (Oris) - Emperor Family Academy:</strong> Fairly
+            popular, located in Amarr space.
           </li>
           <li>
             <strong>
               Dodixie IX - Moon 20 - Federation Navy Assembly Plant:
             </strong>{' '}
-            This is the principal Gallente market hub.
+            Largest Gallente market hub.
           </li>
           <li>
-            <strong>Rens VI - Moon 8 - Brutor Tribe Treasury:</strong> This is a
-            key hub in Minmatar space.
+            <strong>Rens VI - Moon 8 - Brutor Tribe Treasury:</strong> Minmatar
+            hub.
           </li>
           <li>
             <strong>Hek VIII - Moon 12 - Boundless Creation Factory:</strong>{' '}
-            This is another notable hub in Minmatar space.
+            Minmatar hub.
           </li>
         </ol>
       </>
     ),
   },
   {
-    id: 'skill-training',
-    title: 'Skill Training and Implants',
+    id: 'roles',
+    title: 'Roles in the Corp',
     content: (
       <>
-        <h2 id='skill-training'>Skill Training and Implants</h2>
-        <h3>Essential Skill Training</h3>
-        <p>
-          Among the most crucial skills to develop is <strong>Biology V</strong>
-          . This skill extends the duration of combat boosters and cerebral
-          accelerators, offering substantial advantages in both combat and
-          exploration scenarios. Investing in Biology V not only boosts your
-          combat effectiveness but also prolongs the benefits of temporary
-          enhancements, making it a key skill for sustained operations in
-          wormhole space.
-        </p>
-        <h3>Attribute-Enhancing Implants</h3>
-        <p>
-          To further enhance your capabilities, consider equipping
-          attribute-boosting implants that improve your overall performance:
-        </p>
+        <h2 id='roles'>Roles in the Corp</h2>
+        <p>The main roles players fill in a wormhole corporation.</p>
         <ul>
           <li>
-            <strong>Ocular Filter</strong> – Enhances perception.
+            <strong>Scout:</strong> Responsible for scanning and finding
+            wormholes and sites.
           </li>
           <li>
-            <strong>Memory Augmentation</strong> – Boosts memory.
+            <strong>Combat Pilot:</strong> Engages in PvE and PvP combat,
+            defending the corp's assets and attacking enemies.
           </li>
           <li>
-            <strong>Neural Boost</strong> – Increases willpower.
+            <strong>Industrialist:</strong> Focuses on mining, manufacturing,
+            and resource management.
           </li>
           <li>
-            <strong>Cybernetic Subprocessor</strong> – Improves intelligence.
+            <strong>Logistics Pilot:</strong> Provides remote repairs and
+            support during fleet operations.
           </li>
           <li>
-            <strong>Social Adaptation Chip</strong> – Augments charisma.
-          </li>
-        </ul>
-        <p>
-          These implants provide a well-rounded boost to your core attributes,
-          accelerating skill training and improving your effectiveness across
-          various activities.
-        </p>
-        <h3>Exploration-Focused Implants</h3>
-        <p>
-          For those focused on exploration, the{' '}
-          <strong>Poteque ‘Prospector’</strong> series of implants is
-          invaluable. These implants include:
-        </p>
-        <ul>
-          <li>
-            <strong>Astrometric Rangefinding</strong> – Enhances scan strength.
+            <strong>Tackler:</strong> Specializes in pinning down enemy ships
+            during engagements.
           </li>
           <li>
-            <strong>Astrometric Pinpointing</strong> – Reduces scan deviation.
+            <strong>Bubbler:</strong> Deploys warp disruption fields to prevent
+            enemy ships from escaping.
           </li>
           <li>
-            <strong>Astrometric Acquisition</strong> – Decreases scan time.
-          </li>
-        </ul>
-        <p>
-          Equipping these implants significantly enhances your scanning
-          capabilities, allowing you to locate sites with greater speed and
-          precision. For explorers, these implants are indispensable tools that
-          improve both efficiency and success rates in wormhole space.
-        </p>
-      </>
-    ),
-  },
-  {
-    id: 'corporate-roles',
-    title: 'Corporate Roles',
-    content: (
-      <>
-        <h2 id='corporate-roles'>Corporate Roles</h2>
-        <p>
-          Each member of the corporation plays a specific role that contributes
-          to the overall success of the group. Understanding and excelling in
-          your role is key to thriving in wormhole space. The corporation has
-          several key roles that members may fulfill:
-        </p>
-        <ul>
-          <li>
-            <strong>Scout:</strong> As a scout, you are responsible for scanning
-            and locating wormholes and sites. Your role is critical in mapping
-            out the wormhole network and identifying potential threats and
-            opportunities.
-          </li>
-          <li>
-            <strong>Combat Pilot:</strong> Combat pilots engage in both PvE and
-            PvP, defending the corporation's assets and initiating attacks on
-            enemy forces.
-          </li>
-          <li>
-            <strong>Industrialist:</strong> Industrialists focus on mining,
-            manufacturing, and resource management, ensuring that the
-            corporation has the materials and supplies needed for sustained
-            operations.
-          </li>
-          <li>
-            <strong>Logistics Pilot:</strong> Logistics pilots provide remote
-            repairs and support during fleet operations, playing a vital role in
-            keeping combat pilots and other members of the fleet alive.
-          </li>
-          <li>
-            <strong>Tackler:</strong> Tacklers specialize in immobilizing enemy
-            ships during engagements, preventing them from escaping and allowing
-            the fleet to secure kills.
-          </li>
-          <li>
-            <strong>Bubbler:</strong> Bubblers deploy warp disruption fields to
-            prevent enemy ships from escaping, especially during large fleet
-            engagements.
-          </li>
-          <li>
-            <strong>Electronic Warfare (EWar) Specialist:</strong> EWar
-            specialists disrupt enemy ship functionalities through various
-            jamming techniques, weakening their combat effectiveness and giving
-            the corporation a tactical advantage.
+            <strong>EWar:</strong> Disrupts enemy ships by jamming targeting
+            systems, reducing sensor strength, and more.
           </li>
         </ul>
       </>
     ),
   },
   {
-    id: 'ewar',
-    title: 'Electronic Warfare (EWAR)',
+    id: 'warfare-notes',
+    title: 'Warfare Notes',
     content: (
       <>
-        <h2 id='ewar'>Electronic Warfare (EWAR)</h2>
+        <h2 id='warfare-notes'>Warfare Notes</h2>
+        <h3>EWAR</h3>
         <p>
-          Electronic Warfare (EWAR) is a critical aspect of fleet combat,
-          allowing you to disrupt and neutralize enemy ships effectively. Each
-          faction in EVE Online has a specific type of EWar that is most
-          effective against it. The ship background color in the overview can
-          help you identify the faction:
+          Quickly identify and apply the correct electronic warfare module based
+          on ship type.
+        </p>
+        <p>
+          Look at the color of the ship background in the Overview and jam using
+          the matching colored module:
         </p>
         <ul>
           <li>
-            <strong>Amarr (Yellow Background):</strong> Use Radar jammers to
-            disrupt Amarr ships.
+            <strong>Amarr:</strong> Radar (Yellow background)
           </li>
           <li>
-            <strong>Caldari (Blue Background):</strong> Use Gravimetric jammers
-            against Caldari ships.
+            <strong>Caldari:</strong> Gravimetric (Blue background)
           </li>
           <li>
-            <strong>Gallente (Turquoise Background):</strong> Use Magnetometric
-            jammers versus Gallente ships.
+            <strong>Gallente:</strong> Magnetometric (Turquoise background)
           </li>
           <li>
-            <strong>Minmatar (Red Background):</strong> Use Ladar jammers to
-            disrupt Minmatar ships.
+            <strong>Minmatar:</strong> Ladar (Red background)
+          </li>
+        </ul>
+        <h3>Tanking</h3>
+        <p>The preferred tank type for each faction.</p>
+        <ul>
+          <li>Amarr → Armor</li>
+          <li>Caldari → Shield</li>
+          <li>Gallente → Structure</li>
+          <li>Minmatar → Speed</li>
+        </ul>
+        <h3>Resistance Holes (1st / 2nd)</h3>
+        <p>
+          The primary and secondary resistance holes for different tank types
+          and factions.
+        </p>
+        <ul>
+          <li>T1 Shield → EM / Thermal</li>
+          <li>T1 Armor → Explosive / Kinetic</li>
+          <li>Amarr → Thermal / EM</li>
+          <li>Caldari → EM / Explosive</li>
+          <li>Gallente → Explosive / EM</li>
+          <li>Minmatar → Kinetic / Explosive</li>
+        </ul>
+        <h3>Missiles for Kinetic Bonus Ships</h3>
+        <p>
+          The best missile types to use on kinetic-bonus ships for different
+          scenarios.
+        </p>
+        <ul>
+          <li>Scourge Rage - DPS</li>
+          <li>Scourge Javelin - Range</li>
+          <li>Caldari Navy Scourge - Application</li>
+          <li>Mjolnir Rage - EM DPS</li>
+          <li>Mjolnir Javelin - EM Range</li>
+          <li>Caldari Navy Mjolnir - EM Application</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: 'implants',
+    title: 'Implants',
+    content: (
+      <>
+        <h2 id='implants'>Implants</h2>
+        <p>
+          The most useful implants for exploration, huffing, and general
+          training.
+        </p>
+        <h3>Exploration</h3>
+        <ul>
+          <li>Poteque 'Prospector' Astrometric Rangefinding</li>
+          <li>Poteque 'Prospector' Astrometric Pinpointing</li>
+          <li>Poteque 'Prospector' Astrometric Acquisition</li>
+        </ul>
+        <h3>Huffing</h3>
+        <ul>
+          <li>Eifyr and Co. 'Alchemist' Gas Harvesting GH-801</li>
+        </ul>
+        <h3>Training</h3>
+        <h4>Recommended</h4>
+        <ul>
+          <li>Ocular Filter - Improved Perception</li>
+          <li>Memory Augmentation - Improved Memory</li>
+          <li>Neural Boost - Improved Willpower</li>
+          <li>Cybernetic Subprocessor - Improved Intelligence</li>
+          <li>Social Adaptation Chip - Improved Charisma</li>
+        </ul>
+        <h4>Optional</h4>
+        <ul>
+          <li>
+            Eifyr and Co. 'Alchemist' Biology BY-810 - 10% longer booster
+            duration
+            <ul>
+              <li>
+                <strong>NOTE:</strong> Biology V Skill: Increases the duration
+                of combat boosters and cerebral accelerators
+              </li>
+            </ul>
           </li>
         </ul>
       </>
     ),
   },
   {
-    id: 'defense-tanking',
-    title: 'Defense and Tanking',
+    id: 'pochven',
+    title: 'From HS to NS and Back through Pochven',
     content: (
       <>
-        <h2 id='defense-tanking'>Defense and Tanking</h2>
+        <h2 id='pochven'>From HS to NS and Back through Pochven</h2>
         <p>
-          Optimizing your ship for combat requires a solid understanding of the
-          preferred tanking methods and resistance vulnerabilities associated
-          with each faction.
-        </p>
-        <h3>Preferred Tanking Methods by Faction</h3>
-        <p>
-          Each faction has a preferred tanking strategy that should guide your
-          ship fittings:
+          The specific filaments needed to travel between high-sec, null-sec,
+          and Pochven.
         </p>
         <ul>
           <li>
-            <strong>Amarr:</strong> Armor tanking is the primary method for
-            Amarr ships, focusing on strong armor resistances and repair
-            capabilities.
+            <strong>To NS (quieter systems):</strong> Noise-5 'Needlejack'
+            Filament
           </li>
           <li>
-            <strong>Caldari:</strong> Caldari ships excel with shield tanking,
-            prioritizing high shield resistances and rapid shield regeneration.
+            <strong>To NS (active systems):</strong> Signal-5 'Needlejack'
+            Filament
           </li>
           <li>
-            <strong>Gallente:</strong> Gallente ships often utilize structure
-            tanking, relying on their robust hull strength to absorb damage.
+            <strong>To Pochven:</strong> Border-5 'Pochven' Filament
           </li>
           <li>
-            <strong>Minmatar:</strong> Speed tanking is the cornerstone of
-            Minmatar defense, leveraging agility and high-speed maneuvers to
-            avoid taking damage altogether.
+            <strong>To HS (or sometimes LS):</strong> Glorification-1 'Devana'
+            Filament
           </li>
         </ul>
-        <h3>Resistance Weaknesses by Tank Type</h3>
-        <p>
-          Each tank type has specific vulnerabilities that must be considered
-          when outfitting your ship:
-        </p>
-        <ul>
-          <li>
-            <strong>Shield Tank:</strong> Particularly susceptible to EM and
-            Thermal damage, making it essential to bolster these resistances
-            where possible.
-          </li>
-          <li>
-            <strong>Armor Tank:</strong> Prone to Explosive and Kinetic damage,
-            requiring extra attention to these resistances in your fittings.
-          </li>
-        </ul>
-        <h3>Exploiting Factional Resistance Weaknesses</h3>
-        <p>
-          Understanding the resistance weaknesses of enemy factions allows you
-          to tailor your offensive strategy for maximum effectiveness:
-        </p>
-        <table>
-          <thead>
-            <tr>
-              <th>Faction</th>
-              <th>Primary Weakness</th>
-              <th>Secondary Weakness</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Amarr</td>
-              <td>Thermal damage</td>
-              <td>EM damage</td>
-            </tr>
-            <tr>
-              <td>Caldari</td>
-              <td>EM damage</td>
-              <td>Explosive damage</td>
-            </tr>
-            <tr>
-              <td>Gallente</td>
-              <td>Explosive damage</td>
-              <td>EM damage</td>
-            </tr>
-            <tr>
-              <td>Minmatar</td>
-              <td>Kinetic damage</td>
-              <td>Explosive damage</td>
-            </tr>
-          </tbody>
-        </table>
-      </>
-    ),
-  },
-  {
-    id: 'conclusion',
-    title: 'Conclusion',
-    content: (
-      <>
-        <h2 id='conclusion'>Conclusion</h2>
-        <p>
-          Wormhole space presents some of the most challenging and rewarding
-          opportunities in EVE Online. Navigating its complexities requires not
-          only skill and preparation but also a deep understanding of the
-          mechanics, strategies, and roles that define successful operations in
-          this unpredictable environment.
-        </p>
-        <p>
-          By following the guidelines outlined in this primer, you will be
-          well-equipped to thrive in wormhole space, whether you're engaging in
-          exploration, combat, or signature activities. Remember that success in
-          wormhole space is as much about teamwork and adaptability as it is
-          about individual skill. Always remain vigilant, communicate
-          effectively with your corporation, and continuously refine your
-          strategies based on experience and learning.
-        </p>
-        <p>
-          As you venture beyond the event horizon, embrace the challenges that
-          come your way, and let them sharpen your abilities and strengthen your
-          resolve. The path to mastery in wormhole space is demanding, but with
-          perseverance and the right knowledge, you will find great rewards in
-          the depths of New Eden.
-        </p>
       </>
     ),
   },

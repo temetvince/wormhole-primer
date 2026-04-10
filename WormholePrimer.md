@@ -291,6 +291,17 @@ factions.
 - Gallente -> Explosive / EM
 - Minmatar -> Kinetic / Explosive
 
+### Missiles for Kinetic bonus ships
+
+The best missile types to use on kinetic-bonus ships for different scenarios.
+
+- Scourge Rage - DPS
+- Scourge Javelin - Range
+- Caldari Navy Scourge - Application
+- Mjolnir Rage - EM DPS
+- Mjolnir Javelin - EM Range
+- Caldari Navy Mjolnir - EM Application
+
 ## Implants
 
 The most useful implants for exploration, huffing, and general training.
@@ -320,17 +331,6 @@ The most useful implants for exploration, huffing, and general training.
 - Eifyr and Co. 'Alchemist' Biology BY-810 - 10% longer booster duration
   - **NOTE:** Biology V Skill: Increases the duration of combat boosters and
     cerebral accelerators
-
-## Missiles for Kinetic bonus ships
-
-The best missile types to use on kinetic-bonus ships for different scenarios.
-
-- Scourge Rage - DPS
-- Scourge Javelin - Range
-- Caldari Navy Scourge - Application
-- Mjolnir Rage - EM DPS
-- Mjolnir Javelin - EM Range
-- Caldari Navy Mjolnir - EM Application
 
 ## From HS to NS and Back through Pochven
 
