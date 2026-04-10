@@ -1,4 +1,6 @@
-# Eve Wormhole Primer
+# Beyond the Event Horizon: A Primer for Wormhole Dwelling
+
+### by Lance Westar
 
 ## Table of Contents
 
