@@ -5,7 +5,7 @@ import './Footer.css';
 /**
  * Footer component for the application.
  *
- * This component renders a footer with a link to the home page.
+ * This component renders a footer.
  * The footer is styled using the external Footer.css file.
  */
 const Footer: React.FC = () => {
@@ -14,11 +14,11 @@ const Footer: React.FC = () => {
       <p>
         <a
           href='https://astralaide.com'
-          target='_blank'
+          target='_self'
           rel='noopener noreferrer'
-          aria-label='Return Home'
+          aria-label='Navigate to astralaide.com'
         >
-          Return to Holier Than Thou
+          Navigate to astralaide.com
         </a>
       </p>
     </footer>
