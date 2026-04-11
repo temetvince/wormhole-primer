@@ -264,7 +264,7 @@ export const getPages = (
             C3: Up to 200-250m ISK/hr in a Heavy Assault Cruiser; can almost
             double if blitzing in a Marauder (advised against).
           </li>
-          <li>C4: Good money</li>
+          <li>C4: Good money.</li>
           <li>
             C5: Great money if soloing in marauders or running 3
             Leshaks/Nestors.

@@ -86,7 +86,7 @@ space.
 - C1-2: Inferior and not worth your time if you can do exploration or huffing.
 - C3: Up to 200-250m ISK/hr in a Heavy Assault Cruiser; can almost double if
   blitzing in a Marauder (advised against).
-- C4: Good money
+- C4: Good money.
 - C5: Great money if soloing in marauders or running 3 Leshaks/Nestors.
 
 ### Inconsistent ISK
