@@ -133,7 +133,7 @@ safe in wormhole chains.
 - Saving Methods: Only save WH by clicking on them from the Overview or in the
   3D view for accuracy. It's okay to save Signatures from the scanner view as
   the loss of accuracy is minimal.
-- Before jumping through a bookmarked wormhole with an unknown destination,
+- Tip: Before jumping through a bookmarked wormhole with an unknown destination,
   right click the bookmark, and click Edit Location. Leave that window open
   while you jump.
 

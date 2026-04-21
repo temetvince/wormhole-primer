@@ -352,9 +352,9 @@ export const getPages = (
             Signatures from the scanner view as the loss of accuracy is minimal.
           </li>
           <li>
-            Before jumping through a bookmarked wormhole with an unknown
-            destination, right click the bookmark, and click Edit Location.
-            Leave that window open while you jump.
+            <strong>Tip:</strong> Before jumping through a bookmarked wormhole
+            with an unknown destination, right click the bookmark, and click
+            Edit Location. Leave that window open while you jump.
           </li>
         </ul>
       </>
