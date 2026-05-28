@@ -292,6 +292,10 @@ training.
 - Poteque 'Prospector' Astrometric Pinpointing
 - Poteque 'Prospector' Astrometric Acquisition
 
+### Data (Ghost Sites)
+
+- Neural Lace 'Blackglass' Net Intrusion
+
 ### Huffing
 
 - Eifyr and Co. 'Alchemist' Gas Harvesting
